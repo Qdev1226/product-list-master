@@ -1,0 +1,23 @@
+.category-item {
+    display: inline-block;
+    padding: 0 1.5rem .75rem 0;
+}
+
+.category-item h2 {
+    font-size: var(--font);
+    font-weight: normal;
+    margin: 0;
+}
+
+.category-item__button {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    font-size: var(--font);
+}
+
+.category-item__button--selected h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}

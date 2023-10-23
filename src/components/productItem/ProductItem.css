@@ -1,0 +1,28 @@
+.product {}
+
+.product__header {
+    font-weight: normal;
+    font-size: 1em;
+    margin: 0 0 .5rem;
+    padding: 0;
+    border: 0;
+    background: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.product__header--bold {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.product__description {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.product__description--hidden {
+    display: none;
+}
